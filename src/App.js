@@ -30,6 +30,7 @@ function App() {
         <div className="footer pb-3 ms-3">
         </div>
       </div>
+      
       <ScrollToTop
         smooth
         color="#f29f67"
