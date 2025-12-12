@@ -23,7 +23,7 @@ const ProjectList = [
   {
     id: 2,
     projectImgUrl:
-      "https://www.tigren.com/blog/wp-content/uploads/2023/04/Screenshot-823.png",
+      "https://halothemes.net/cdn/shop/products/spark-home-2-pc_bdc9a3c6-1576-4b68-9d34-c4a698dd23a5.jpg?v=1762480414&width=1024",
     gitHubUrl: "",
     projectName: "E-commerce website",
     description: "",
@@ -115,7 +115,7 @@ const Projects = () => {
                     </div>
                     <a
                       className="ad-btn"
-                      href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                      href="https://github.com/girinathselvendran"
                     >
                       View
                     </a>

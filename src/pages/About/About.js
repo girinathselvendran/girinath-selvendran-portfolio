@@ -12,19 +12,27 @@ const About = () => {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img src={ProfileImg} alt="profile_pic" />
             </div>
+
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-              <h1>About me</h1>
+              <h1>About Me</h1>
               <p>
-                Hi, I’m <b>Girinath Selvendran</b>, a highly skilled Full Stack
-                Developer with over 3 years of experience specializing in
-                <b> MERN and MEAN stacks</b>. I excel in building efficient,
-                user-friendly web applications using React JS, Angular, and
-                Node.js. With a strong focus on backend optimization and
-                frontend performance, I have successfully led teams and
-                delivered projects across various industries, including fintech
-                and e-commerce. I’m passionate about solving complex problems
-                and consistently improving my skills to deliver high-quality
-                software solutions.
+                Hi, I’m <b>Girinath Selvendran</b>, a Full Stack Developer with
+                4+ years of experience specializing in the <b>MERN</b> and
+                <b> MEAN</b> stacks. I build scalable, high-performance web
+                applications with strong focus on clean architecture and
+                optimized user experiences.
+                <br /><br />
+                I have delivered production-ready solutions across multiple
+                domains, including <b>Fintech</b>, <b>E-Commerce</b>,
+                <b> Logistics</b>, and <b>Digital Publishing</b>. Some of my key
+                work includes developing a Fintech Loan Management Platform,
+                an E-Commerce system with real-time inventory, a Depot
+                Management System, and Publishing Workflow Management System
+                with AI-based Alt-Text validation.
+                <br /><br />
+                I enjoy solving complex problems, improving performance, and
+                delivering reliable applications with attention to detail and
+                quality.
               </p>
             </div>
           </div>
