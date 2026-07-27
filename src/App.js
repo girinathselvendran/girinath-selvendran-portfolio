@@ -21,16 +21,15 @@ function App() {
         <Layout />
         <div className="container">
           <About />
-          <Education />
-          <Techstack />
-          <Projects />
           <WorkExp />
+          <Projects />
+          <Techstack />
+          <Education />
           <Contact />
         </div>
-        <div className="footer pb-3 ms-3">
-        </div>
+        <div className="footer pb-3 ms-3"></div>
       </div>
-      
+
       <ScrollToTop
         smooth
         color="#f29f67"

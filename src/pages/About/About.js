@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Jump from "react-reveal/Jump";
-import ProfileImg from "../../assets/images/profile_image.jpeg";
+import ProfileImg from "../../assets/images/Girinath_Profile.jpeg";
 
 const About = () => {
   return (
@@ -16,23 +16,35 @@ const About = () => {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About Me</h1>
               <p>
-                Hi, I’m <b>Girinath Selvendran</b>, a Full Stack Developer with
-                4+ years of experience specializing in the <b>MERN</b> and
-                <b> MEAN</b> stacks. I build scalable, high-performance web
-                applications with strong focus on clean architecture and
-                optimized user experiences.
-                <br /><br />
-                I have delivered production-ready solutions across multiple
-                domains, including <b>Fintech</b>, <b>E-Commerce</b>,
-                <b> Logistics</b>, and <b>Digital Publishing</b>. Some of my key
-                work includes developing a Fintech Loan Management Platform,
-                an E-Commerce system with real-time inventory, a Depot
-                Management System, and Publishing Workflow Management System
-                with AI-based Alt-Text validation.
-                <br /><br />
-                I enjoy solving complex problems, improving performance, and
-                delivering reliable applications with attention to detail and
-                quality.
+                Hi, I'm <b>Girinath Selvendran</b>, a{" "}
+                <b>Senior Full Stack Developer</b> with
+                <b> 5+ years of experience</b> building scalable, secure, and
+                high-performance web applications using{" "}
+                <b>
+                  React.js, Next.js, Node.js, Express.js, TypeScript,
+                  PostgreSQL, MongoDB,
+                </b>{" "}
+                and <b>Azure</b>.
+                <br />
+                <br />I have experience developing enterprise applications
+                across
+                <b> Fintech</b>, <b>Digital Publishing</b>, <b>E-Commerce</b>,
+                and
+                <b> Logistics</b>. My expertise includes designing responsive
+                user interfaces, building RESTful APIs, optimizing database
+                performance, and integrating cloud services and AI-powered
+                features into modern web applications.
+                <br />
+                <br />
+                In my current role at <b>Integra Software</b>, I develop
+                enterprise workflow management solutions with AI-driven
+                automation, Azure cloud services, and scalable backend
+                architectures that improve productivity and user experience.
+                <br />
+                <br />I enjoy solving complex problems, writing clean and
+                maintainable code, optimizing application performance, and
+                continuously learning new technologies to build innovative,
+                real-world solutions.
               </p>
             </div>
           </div>

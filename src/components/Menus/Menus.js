@@ -12,7 +12,7 @@ import {
   FcReadingEbook,
   FcVideoProjector,
 } from "react-icons/fc";
-import ProfileImg from "../../assets/images/profile_image.jpeg";
+import ProfileImg from "../../assets/images/Girinath_Profile.jpeg";
 
 const Menus = ({ toggle }) => {
   return (
