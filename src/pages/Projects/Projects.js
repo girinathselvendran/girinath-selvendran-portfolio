@@ -5,75 +5,129 @@ const ProjectList = [
   {
     id: 1,
     projectImgUrl:
+      "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=900",
+    gitHubUrl: "",
+    projectName: "AI-Powered Publishing Workflow Management System",
+    description:
+      "Enterprise workflow platform for digital publishing with AI-powered Alt-Text generation, automated task allocation, workflow monitoring, reporting, and Azure cloud integration.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Azure Functions",
+      "Azure Blob Storage",
+      "REST API",
+      "Jenkins",
+      "LLM",
+      "AI",
+    ],
+  },
+
+  {
+    id: 2,
+    projectImgUrl:
       "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/375111021/original/a4af5abd5720ec346625b134941c944604fd9143/fintech-website-payment-website-neo-bank-website.png",
     gitHubUrl: "",
-    projectName: "Fintech website",
-    description: "",
+    projectName: "Fintech Loan Origination & Loan Management System",
+    description:
+      "Developed scalable fintech platform for customer onboarding, loan processing, repayment tracking, reporting, authentication, and financial analytics.",
     skills: [
-      "React JS",
-      "Node JS",
+      "React.js",
+      "Node.js",
       "TypeScript",
       "MongoDB",
       "MySQL",
       "Azure Functions",
       "Redis",
       "JWT",
+      "REST API",
+      "Power BI",
     ],
   },
+
   {
-    id: 2,
+    id: 3,
     projectImgUrl:
       "https://halothemes.net/cdn/shop/products/spark-home-2-pc_bdc9a3c6-1576-4b68-9d34-c4a698dd23a5.jpg?v=1762480414&width=1024",
     gitHubUrl: "",
-    projectName: "E-commerce website",
-    description: "",
+    projectName: "E-Commerce Platform",
+    description:
+      "Built a responsive e-commerce platform with authentication, product catalog, shopping cart, inventory management, order tracking, email notifications, and payment integration.",
     skills: [
-      "React JS",
-      "Node JS",
+      "React.js",
+      "Node.js",
+      "Express.js",
       "MySQL",
       "Redis",
       "Bootstrap",
       "SendGrid",
-      "Azure Queue Function",
+      "Azure Queue",
+      "JWT",
     ],
   },
+
   {
-    id: 3,
+    id: 4,
     projectImgUrl:
       "https://www.shutterstock.com/image-photo/business-team-container-cargo-shipping-600nw-1736738582.jpg",
     gitHubUrl: "",
     projectName: "Depot Management System",
-    description: "",
-    skills: ["Angular", "TypeScript", ".Net C#", "PostgreSQL", "IIS", "JWT"],
+    description:
+      "Enterprise logistics application for depot operations, container tracking, billing, reporting, user management, and workflow automation.",
+    skills: [
+      "Angular",
+      "TypeScript",
+      ".NET",
+      "PostgreSQL",
+      "JWT",
+      "REST API",
+      "IIS",
+    ],
   },
+
   {
-    id: 4,
+    id: 5,
     projectImgUrl:
       "https://walkingtree.tech/wp-content/uploads/2022/01/Visualization-that-is-unique-to-you.png",
     gitHubUrl: "",
-    projectName: "Power BI Dashboard Visualization",
-    description: "",
+    projectName: "Power BI Analytics Dashboard",
+    description:
+      "Designed executive dashboards with ETL pipelines, Snowflake integration, role-based security, and business KPI visualization.",
     skills: [
       "Power BI",
       "Talend ETL",
       "Snowflake",
-      "My SQL",
+      "MySQL",
       "Azure AD",
+      "RLS",
       "Task Scheduler",
     ],
   },
-];
-const PersonalProjectsList = [
+
   {
-    id: 1,
+    id: 6,
     projectImgUrl:
-      "https://www.shutterstock.com/image-photo/business-team-container-cargo-shipping-600nw-1736738582.jpg",
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900",
     gitHubUrl: "",
-    projectName: "Depot Management System",
-    description: "",
-    skills: [],
+    projectName: "AI Document Assistant",
+    description:
+      "Integrated Large Language Models to summarize documents, generate Alt-Text, answer user queries, and automate content validation using AI APIs.",
+    skills: [
+      "OpenAI API",
+      "Azure OpenAI",
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "Prompt Engineering",
+      "REST API",
+      "AI",
+      "LLM",
+    ],
   },
 ];
+
 const Projects = () => {
   return (
     <>
@@ -83,11 +137,12 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          Developed and led multiple web and mobile applications across fintech,
-          e-commerce, and logistics domains. Focused on building user-friendly
-          interfaces, backend optimizations, and integrating third-party
-          services to streamline business operations and enhance user
-          experiences.
+          Designed and developed enterprise-grade web applications across
+          Fintech, Digital Publishing, E-Commerce, Logistics, and AI domains.
+          Experienced in building scalable full-stack solutions, cloud
+          integrations, REST APIs, workflow automation, AI-powered features, and
+          interactive analytics using React.js, Node.js, TypeScript, PostgreSQL,
+          MongoDB, Azure, and modern DevOps practices.
         </p>
         {/* card design */}
         <div className="row" id="ads">

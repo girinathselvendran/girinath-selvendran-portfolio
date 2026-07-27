@@ -16,10 +16,8 @@ const WorkExp = () => {
             Work Experience
           </h2>
           <hr />
-
-          <VerticalTimeline lineColor="#1e1e2c">
-
-            {/* Integra Software – 2024–Present */}
+          <VerticalTimeline>
+            {/* Integra Software */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
@@ -29,26 +27,58 @@ const WorkExp = () => {
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer – MERN
+                Senior Full Stack Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Integra Software, Puducherry
               </h4>
+              <ul>
+                <li>
+                  Develop enterprise Workflow Management System (WMS) using
+                  React, Node.js, PostgreSQL, and Azure.
+                </li>
 
-              <p>
-                <ul>
-                  <li>Automated job-failure handling and workflow error re-triggers.</li>
-                  <li>Built core WMS reports for Inflow, WIP, Queries & Dispatch.</li>
-                  <li>Implemented alt-text validation for iAlt (AI-based module).</li>
-                  <li>Integrated Azure Blob Storage and improved asset workflows.</li>
-                  <li>Configured Jenkins pipelines for automated deployments.</li>
-                </ul>
+                <li>
+                  Built scalable REST APIs and optimized backend services for
+                  high-performance enterprise applications.
+                </li>
 
-                <strong>Tech Stack:</strong> React, Node.js, PostgreSQL, Jenkins, Azure
-              </p>
+                <li>
+                  Integrated AI-powered workflow automation and Alt-Text
+                  validation to improve publishing efficiency.
+                </li>
+
+                <li>
+                  Implemented Azure Blob Storage integration for secure document
+                  and asset management.
+                </li>
+
+                <li>
+                  Automated workflow error handling, job recovery, and
+                  monitoring to improve system reliability.
+                </li>
+
+                <li>
+                  Designed interactive dashboards and reports for Inflow, WIP,
+                  Queries, Dispatch, and Production tracking.
+                </li>
+
+                <li>
+                  Configured CI/CD pipelines using Jenkins and collaborated with
+                  QA and DevOps teams for seamless deployments.
+                </li>
+
+                <li>
+                  Participated in Agile ceremonies, code reviews, sprint
+                  planning, and production support.
+                </li>
+              </ul>
+              <strong>Tech Stack:</strong> React.js, Node.js, Express.js,
+              TypeScript, PostgreSQL, Azure Functions, Azure Blob Storage,
+              Jenkins, Git, REST API, AI Integration
             </VerticalTimelineElement>
 
-            {/* Paripoorna Software – 2021–2024 */}
+            {/* Paripoorna Software */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
@@ -58,25 +88,57 @@ const WorkExp = () => {
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer – MERN
+                Full Stack Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Paripoorna Software, Bengaluru
               </h4>
+              <ul>
+                <li>
+                  Developed scalable full-stack web applications using the MERN
+                  stack for Fintech, Logistics, and E-Commerce domains.
+                </li>
 
-              <p>
-                <ul>
-                  <li>Developed full-stack applications using React & Node.js.</li>
-                  <li>Improved API and backend performance across projects.</li>
-                  <li>Implemented SSR and reusable UI components.</li>
-                  <li>Used AI tools to speed up development & reduce debugging.</li>
-                  <li>Worked with clients on requirements and solution design.</li>
-                </ul>
+                <li>
+                  Designed responsive user interfaces with React.js, Redux,
+                  Material UI, and Bootstrap.
+                </li>
 
-                <strong>Tech Stack:</strong> React, Node.js, MongoDB, MySQL, Git
-              </p>
+                <li>
+                  Built secure REST APIs with Node.js and Express.js using JWT
+                  authentication and role-based authorization.
+                </li>
+
+                <li>
+                  Optimized MongoDB and MySQL queries, improving API performance
+                  and application responsiveness.
+                </li>
+
+                <li>
+                  Implemented reusable UI components, state management, and
+                  server-side rendering for better user experience.
+                </li>
+
+                <li>
+                  Integrated third-party APIs, payment gateways, and cloud
+                  services based on business requirements.
+                </li>
+
+                <li>
+                  Collaborated with cross-functional teams, gathered client
+                  requirements, and delivered production-ready features in Agile
+                  sprints.
+                </li>
+
+                <li>
+                  Used GitHub Copilot, ChatGPT, and AI-assisted development
+                  tools to improve productivity and code quality.
+                </li>
+              </ul>
+              <strong>Tech Stack:</strong> React.js, Next.js, Node.js,
+              Express.js, MongoDB, MySQL, TypeScript, Redux Toolkit, REST API,
+              Git, GitHub, Agile, AI Tools
             </VerticalTimelineElement>
-
           </VerticalTimeline>
         </div>
       </div>
