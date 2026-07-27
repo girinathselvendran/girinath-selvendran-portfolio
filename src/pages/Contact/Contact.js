@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Contact.css";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsLinkedin, BsEnvelope } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
@@ -25,7 +25,7 @@ const Contact = () => {
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         formData,
-        process.env.REACT_APP_USER_ID
+        process.env.REACT_APP_USER_ID,
       )
       .then((response) => {
         console.log("Email sent successfully!", response.status, response.text);
@@ -78,6 +78,14 @@ const Contact = () => {
                           rel="noopener noreferrer"
                         >
                           <BsGithub color="black" size={30} className="ms-2" />
+                        </a>
+                        <a
+                          href={`mailto:${process.env.REACT_APP_CONTACT_EMAIL || "girinathselvendran@gmail.com"}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                          <BsEnvelope color="red" size={30} />
                         </a>
                       </h6>
                     </div>
