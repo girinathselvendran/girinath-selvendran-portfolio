@@ -148,7 +148,7 @@ const Projects = () => {
         <div className="row" id="ads">
           <h2>Company Projects</h2>
           {ProjectList.map((project) => (
-            <motion.div
+            <div
               key={project.id}
               className="col-lg-4 col-md-6 margin-bottom-10"
               // initial={{ opacity: 0, y: 30 }}
@@ -178,7 +178,7 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
 
           {/* <h2>Personal Projects</h2>
