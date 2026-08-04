@@ -151,9 +151,8 @@ const Projects = () => {
             <motion.div
               key={project.id}
               className="col-lg-4 col-md-6 margin-bottom-10"
-              initial={{ opacity: 0, scale: 0.85, rotate: -6 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-              viewport={{ once: true }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
               <div className="card rounded h-100">
