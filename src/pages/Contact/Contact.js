@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import axios from "axios";
 import "./Contact.css";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
-import { BsFacebook, BsGithub, BsLinkedin, BsEnvelope } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsEnvelope } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
 const Contact = () => {

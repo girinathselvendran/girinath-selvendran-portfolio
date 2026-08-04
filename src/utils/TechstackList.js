@@ -1,6 +1,5 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { FaSnowflake } from "react-icons/tb";
 import {
   SiJavascript,
   SiReact,
