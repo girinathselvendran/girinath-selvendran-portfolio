@@ -1,7 +1,6 @@
 import React from "react";
 import "./Menus.css";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import {
   FcAbout,
@@ -19,12 +18,19 @@ const Menus = ({ toggle }) => {
     <>
       {toggle ? (
         <>
-          <Zoom>
-            <div className="navbar-profile-pic">
-              <img src={ProfileImg} alt="profile pic" />
-            </div>
-          </Zoom>
-          <Fade left>
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="navbar-profile-pic"
+          >
+            <img src={ProfileImg} alt="Profile" />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="nav-items">
               <div className="nav-item">
                 <div className="nav-link">
@@ -115,7 +121,7 @@ const Menus = ({ toggle }) => {
                 </div>
               </div>
             </div>
-          </Fade>
+          </motion.div>
         </>
       ) : (
         <>

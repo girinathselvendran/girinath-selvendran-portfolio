@@ -1,6 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./Projects.css";
-import Spin from "react-reveal/Spin";
 const ProjectList = [
   {
     id: 1,
@@ -147,38 +147,40 @@ const Projects = () => {
         {/* card design */}
         <div className="row" id="ads">
           <h2>Company Projects</h2>
-          <Spin>
-            {ProjectList.map((project) => (
-              <div className="col-md-4 margin-bottom-10" key={project.id}>
-                <div className="card rounded">
-                  <div className="card-image">
-                    <img
-                      src={project.projectImgUrl}
-                      alt={project.projectName}
-                    />
+          {ProjectList.map((project) => (
+            <motion.div
+              key={project.id}
+              className="col-lg-4 col-md-6 margin-bottom-10"
+              initial={{ opacity: 0, scale: 0.85, rotate: -6 }}
+              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="card rounded h-100">
+                <div className="card-image">
+                  <img src={project.projectImgUrl} alt={project.projectName} />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  {project.skills.map((skill, index) => (
+                    <span className="card-detail-badge" key={index}>
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+                <div className="card-body text-center d-flex flex-column justify-content-between">
+                  <div className="ad-title m-auto">
+                    <h6 className="text-uppercase">{project.projectName}</h6>
                   </div>
-                  <div className="card-image-overly m-auto mt-3">
-                    {project.skills.map((skill, index) => (
-                      <span className="card-detail-badge" key={index}>
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="card-body text-center">
-                    <div className="ad-title m-auto">
-                      <h6 className="text-uppercase">{project.projectName}</h6>
-                    </div>
-                    <a
-                      className="ad-btn"
-                      href="https://github.com/girinathselvendran"
-                    >
-                      View
-                    </a>
-                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/girinathselvendran"
+                  >
+                    View
+                  </a>
                 </div>
               </div>
-            ))}
-          </Spin>
+            </motion.div>
+          ))}
 
           {/* <h2>Personal Projects</h2>
           <Spin>
