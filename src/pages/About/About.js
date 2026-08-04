@@ -1,12 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./About.css";
-import Jump from "react-reveal/Jump";
 import ProfileImg from "../../assets/images/Girinath_Profile.jpeg";
 
 const About = () => {
   return (
     <>
-      <Jump>
+      <motion.div
+        initial={{ opacity: 0, y: 40, scale: 0.98 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="about" id="about">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
@@ -49,7 +53,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Jump>
+      </motion.div>
     </>
   );
 };
