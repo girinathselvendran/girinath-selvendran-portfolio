@@ -145,7 +145,7 @@ const Projects = () => {
           MongoDB, Azure, and modern DevOps practices.
         </p>
         {/* card design */}
-        <div className="row" id="ads">
+        <div className="row" id="">
           <h2>Company Projects</h2>
           {ProjectList.map((project) => (
             <div
