@@ -167,14 +167,16 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="card-body text-center d-flex flex-column justify-content-between">
-                  <div className="ad-title m-auto">
+                  <div className="ad-title">
                     <h6 className="text-uppercase">{project.projectName}</h6>
                   </div>
                   <a
                     className="ad-btn"
                     href="https://github.com/girinathselvendran"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    View
+                    View Project
                   </a>
                 </div>
               </div>
