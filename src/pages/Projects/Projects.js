@@ -159,6 +159,14 @@ const Projects = () => {
                 <div className="card-image">
                   <img src={project.projectImgUrl} alt={project.projectName} />
                 </div>
+                <div>
+                  <h6
+                    style={{ margin: "10px 15px 0px 15px" }}
+                    className="text-uppercase"
+                  >
+                    {project.projectName}
+                  </h6>{" "}
+                </div>
                 <div className="card-image-overly m-auto mt-3">
                   {project.skills.map((skill, index) => (
                     <span className="card-detail-badge" key={index}>
